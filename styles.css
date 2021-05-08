@@ -23,7 +23,7 @@ header {
   text-align: left;
   background-image: url(images/titulo-foto.jpg);
   width: 100%;
-  height: 500px;
+  height: 400px;
   color: white;
   display: list-item;
   justify-content: center;
@@ -52,4 +52,32 @@ section {
 
 .flex-contenedor > img {
   width: 20%;
+}
+#ideol {
+  background-image: url("images/logros-foto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#footer-links{
+	border-top: 2px double black;
+	margin-top: 2%;
+}
+
+#footer-links ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	text-align: justify;
+}
+
+footer{
+	background-color: beige;
+}
+
+footer p{
+	display: flex;
+	justify-content: flex-end;
 }
