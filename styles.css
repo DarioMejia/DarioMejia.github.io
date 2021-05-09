@@ -1,41 +1,53 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
+}
+#general {
+  width: 98.8vw;
+}
+nav {
+  padding: 15px;
 }
 .franja {
   background-color: #b0bec5;
-  padding: 30px;
 }
 nav > * {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
-
 #links {
   display: inline-block;
   float: right;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
 }
 h1,
-h2 {
+h3,
+h4,
+h6 {
   margin: 0;
 }
+
 header {
-  padding-left: 20px;
-  text-align: left;
+  font-size: large;
   background-image: url(images/titulo-foto.jpg);
   width: 100%;
   height: 400px;
   color: white;
-  display: list-item;
-  justify-content: center;
+  display: flex;
   align-items: center;
-}
-a {
-  text-decoration: none;
-  color: bisque;
 }
 .fondo-img {
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
 }
 section {
   padding: 20px;
@@ -43,15 +55,17 @@ section {
 
 .flex-contenedor {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
-
-.flex-contenedor > p {
-  width: 80%;
-}
-
-.flex-contenedor > img {
+.imagen-lateral{
   width: 20%;
+}
+.desc-imagen-lateral{
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  width: 100%;
 }
 #ideol {
   background-image: url("images/logros-foto.jpg");
@@ -59,25 +73,26 @@ section {
   background-size: cover;
   color: white;
 }
-#footer-links{
-	border-top: 2px double black;
-	margin-top: 2%;
+#footer-links {
+  border-top: 2px double black;
+  margin-top: 2%;
 }
 
-#footer-links ul{
-	display: flex;
-	justify-content: space-between;
+#footer-links ul {
+  display: flex;
+  justify-content: space-between;
 }
 
-li{
-	text-align: justify;
+li {
+  text-align: justify;
 }
 
-footer{
-	background-color: beige;
+footer {
+  background-color: black;
+  padding: 15px;
 }
 
-footer p{
-	display: flex;
-	justify-content: flex-end;
+footer p {
+  display: flex;
+  justify-content: flex-end;
 }
